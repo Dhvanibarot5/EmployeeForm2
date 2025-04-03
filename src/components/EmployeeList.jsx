@@ -162,7 +162,7 @@ function EmployeeList() {
                 {currentEmployees.map((emp) => (
                   <tr key={emp.id} className="border-b text-center">
                     <td className="p-2">
-                      <img src={emp.imageUrl || "https://via.placeholder.com/50"} alt="Profile" className="w-12 h-12 rounded-full mx-auto" />
+                      <img src={emp.imageUrl} alt="Profile" className="w-12 h-12 rounded-full mx-auto" />
                     </td>
                     <td className="p-2">{emp.name}</td>
                     <td className="p-2">{emp.email}</td>
